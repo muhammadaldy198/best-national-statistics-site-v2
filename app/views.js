@@ -135,7 +135,7 @@ export function viewKemiskinan() {
     <section class="panel"><h2>Siapa yang masih miskin</h2>
       <p>Kemiskinan perdesaan <strong>10,67%</strong>, hampir dua kali lipat perkotaan (<strong>6,34%</strong>) pada Maret 2026. Garis kemiskinan nasional: <strong>Rp 669.235</strong> per kapita per bulan — tiga perempatnya untuk makanan.</p>
       ${sourceLine("BPS, Profil Kemiskinan Maret 2026 (BRS 5 Agu 2026).")}
-      <p>Provinsi dengan kemiskinan tertinggi adalah Papua Pegunungan (32,3%) dan Papua Tengah (29,4%) pada Maret 2025; terendah adalah Bali (3,42%). Selisihnya hampir sepuluh kali lipat.</p>
+      <p>Provinsi dengan kemiskinan tertinggi adalah Papua Pegunungan (30,03%) dan Papua Tengah (28,90%) pada Maret 2025; terendah adalah Bali (3,72%). Selisihnya sekitar delapan kali lipat.</p>
     </section>
     <section class="panel"><h2>Ketimpangan: dua angka, dua ukuran</h2>
       <p><strong>Gini BPS (Maret 2025): 37,5.</strong> Turun dari 37,9 setahun sebelumnya; perkotaan 39,5, perdesaan 29,9. Diukur dari pengeluaran rumah tangga Susenas.</p>
@@ -207,7 +207,7 @@ export function viewMetodologi() {
   <section class="panel"><h2>Tiga keputusan yang kami jaga</h2><ul class="method-list">
     <li><strong>Satu vintage untuk kemiskinan.</strong> Seri kemiskinan memakai Susenas Maret saja (2019–2026). Angka September tidak dicampur: Maret 2019 (9,41%) berbeda dari September 2019 (9,22%), dan mencampur keduanya membuat tren tahunan menyesatkan.</li>
     <li><strong>Dua Gini, dua label.</strong> Gini BPS Maret 2025 adalah 37,5; Gini Bank Dunia (Poverty and Inequality Platform, 2025) adalah 34,4. Keduanya mengukur ketimpangan dari pengeluaran, tetapi dengan survei dan pengolahan yang berbeda — karena itu ditampilkan berdampingan dengan label masing-masing, bukan disamakan.</li>
-    <li><strong>Angka provinsi dibulatkan.</strong> Populasi, kemiskinan, pengangguran, dan PDRB per kapita provinsi dibulatkan ke 1 desimal. Jumlah provinsi dapat selisih kecil dari angka nasional karena pembulatan dan pembobotan survei.</li>
+    <li><strong>Angka provinsi dibulatkan.</strong> Populasi, pengangguran, dan PDRB per kapita provinsi dibulatkan ke 1 desimal; kemiskinan memakai angka BPS 2 desimal (tabel menampilkan 1 desimal). Jumlah provinsi dapat selisih kecil dari angka nasional karena pembulatan dan pembobotan survei.</li>
   </ul></section>
   <section class="panel"><h2>Tentang peta</h2><p>Peta di halaman Provinsi adalah peta skematik: garis pantai digambar sederhana dan titik provinsi diletakkan pada koordinat ibu kota. Peta ini menunjukkan pola — kemiskinan tertinggi di Papua, penduduk terpadat di Jawa — bukan batas wilayah resmi.</p></section>
   <section class="panel"><h2>Kalkulator daya beli</h2><p>Kalkulator di halaman Harga mengalikan jumlah uang dengan inflasi tahunan BPS (IHK) dari tahun awal sampai 2025. Contoh: Rp 1.000.000 tahun 2020 menjadi sekitar Rp 1.144.000 pada 2025 (faktor 1,1444; inflasi kumulatif 14,4%).</p></section>
