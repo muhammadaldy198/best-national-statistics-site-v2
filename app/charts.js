@@ -10,7 +10,7 @@ function niceTicks(min, max, count) {
   const step = (norm < 1.5 ? 1 : norm < 3.5 ? 2 : norm < 7.5 ? 5 : 10) * mag;
   const start = Math.ceil(min / step) * step;
   const ticks = [];
-  for (let v = start; v <= max + 1e-9; v += step) ticks.push(v);
+  for (let v = start; v <= max + 1e-9; v += step) ticks.push(v === 0 ? 0 : v); // nol negatif dinormalisasi ke 0 supaya label sumbu terbaca 0,0
   return { ticks, step };
 }
 
