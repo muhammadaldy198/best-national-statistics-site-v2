@@ -1,6 +1,6 @@
 // NusaStat — data statistik Indonesia.
 // Semua angka adalah angka publik BPS / Kemenkeu / Kemenkes / Bank Dunia.
-// Vintage ditulis di tiap seri: kemiskinan memakai Susenas MARET saja
+// Vintage ditulis di tiap seri: kemiskinan dan Gini memakai Susenas MARET saja
 // (September tidak dicampur, supaya satu seri satu vintage).
 // Angka provinsi dibulatkan ke 1 desimal; jumlah provinsi bisa selisih
 // kecil dari angka nasional karena pembulatan dan pembobotan survei.
@@ -55,7 +55,9 @@ export const SERIES = {
   giniBps: {
     label: "Rasio Gini (BPS)",
     unit: "0–1",
-    values: [0.38, 0.385, 0.381, 0.384, 0.388, 0.379, 0.375],
+    // Susenas MARET saja: 2019–2021 dikoreksi dari vintage September
+    // (0,380/0,385/0,381) ke Maret (0,382/0,381/0,384) — BRS No. 64/07/Th. XXVIII, Gambar 1.
+    values: [0.382, 0.381, 0.384, 0.384, 0.388, 0.379, 0.375],
     source: "BPS, Susenas Maret (BRS No. 64/07/Th. XXVIII, 25 Jul 2025)",
     note: "Gini BPS Maret 2025 sebesar 0,375 (37,5), turun dari 0,379 pada Maret 2024. Diukur dari pengeluaran rumah tangga.",
   },
